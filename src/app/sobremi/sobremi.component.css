@@ -1,0 +1,19 @@
+/*Seccion sobre mi*/
+.sobremi{ /* Fondo de la seccion acerca de mi */
+    background-color: #ff00fb;
+}
+h5.letracolor{ /* Para poner letra color a mi nombre */
+    color: #ff00fb;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #150e0e;
+}   
+section#Sobre\ mi{
+    margin-block: auto;
+}
+@media(max-width: 320px){/*Hace responsive(lo mueve un poco para que se lea) mi nombre en 320p´x*/
+    .acomodanombre{
+        
+        margin-left: -0.8rem;
+        margin-right: -1rem;
+        }
+}

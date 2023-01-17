@@ -1,0 +1,15 @@
+/*Seccion Hard & Soft Skills*/
+.fondohard{/*Fondo de la seccion Hard & soft skills */
+    background: rgb(71,180,58);
+    background: -moz-radial-gradient(circle, rgba(71,180,58,0.5247141092765231) 0%, rgba(33,9,200,1) 50%, rgba(252,69,208,0) 100%);
+    background: -webkit-radial-gradient(circle, rgba(71,180,58,0.5247141092765231) 0%, rgba(33,9,200,1) 50%, rgba(252,69,208,0) 100%);
+    background: radial-gradient(circle, rgba(71,180,58,0.5247141092765231) 0%, rgba(33,9,200,1) 50%, rgba(252,69,208,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#47b43a",endColorstr="#fc45d0",GradientType=1);
+}
+.progress-bar{ /* Cambia el color de los progresos del Hard*/
+    background: rgb(242,192,28);
+    background: -moz-linear-gradient(90deg, rgba(242,192,28,1) 100%, rgba(235,16,219,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(242,192,28,1) 100%, rgba(235,16,219,1) 100%);
+    background: linear-gradient(90deg, rgba(242,192,28,1) 100%, rgba(235,16,219,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2c01c",endColorstr="#eb10db",GradientType=1);
+}

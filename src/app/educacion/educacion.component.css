@@ -1,0 +1,130 @@
+/*Seccion Educacion*/
+.fondoeducacion{ /* Fondo de la seccion educación*/
+    background: rgb(34,193,195);
+    background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(230,253,45,0.3613153879715949) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(230,253,45,0.3613153879715949) 100%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(230,253,45,0.3613153879715949) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#e6fd2d",GradientType=1);
+}
+img.rounded.w-100.border.border-5{ /*Pone color al borde del certificado argentina programa*/
+    border-color: #ff00fb !important;
+    margin-top: 1.5rem;
+}
+img.w-100.moverimagen.border.border-5{ /*Pone color al borde del certificado unity */
+    border-color: crimson !important;
+}
+img.w-50.border.border-4{ /* Pone color al borde del logo colegio */
+    border-color: darkgoldenrod !important;
+}
+
+@media(max-width: 768px){/*mueve la imagen en 768px la de unity*/
+    .unity{
+        margin-top: 2rem ;
+        margin-left: 1rem;
+        }
+}
+@media(max-width: 767px){/*mueve la imagen unity y colegio en 767px*/
+    .unity{
+        margin-top: 2rem ;
+        margin-left: 5rem;
+        }
+    .movercolegio{
+        margin-left: 5rem;
+    }
+}
+@media(max-width: 673px){/*mueve la imagen unity y colegio en 673px*/
+    .unity{
+        
+        margin-left: 3rem;
+        }
+    .movercolegio{
+        margin-left: 3rem;
+    }
+}
+@media(max-width: 612px){/*mueve la imagen unity y colegio en 612px*/
+    .unity{
+        
+        margin-left: 3rem;
+        }
+    .movercolegio{
+        margin-left: 3rem;
+    }
+}
+@media(max-width: 610px){/*mueve la imagen unity y colegio en 610px*/
+    .unity{
+        
+        margin-left: 2rem;
+        }
+    .movercolegio{
+        margin-left: 2rem;
+    }
+}
+@media(max-width: 580px){/*mueve la imagen colegio y unity y el texto educacion en 580px*/
+    .unity{
+        
+        margin-left: 1rem;
+        }
+    .movercolegio{
+        margin-left: 1rem;
+    }
+    .movereducacion{
+        margin-left: -1rem;
+    }
+}
+@media(max-width: 576px){/*mueve la imagen unity y colegio en 576px*/
+    .unity{
+        
+        margin-left: -1rem;
+        }
+    .movercolegio{
+        margin-left: -1rem;
+    }
+    
+}
+@media(max-width: 558px){/*mueve la imagen unity y colegio en 558px*/
+    .unity{
+        
+        margin-left: 0.5rem;
+        }
+    .movercolegio{
+        margin-left: 1rem;
+    }
+    
+}
+@media(max-width: 500px){/*mueve la imagen colegio en 500px*/
+    .movercolegio{
+        
+        margin-left: 4rem;
+    }
+    
+}
+@media(max-width: 410px){/*mueve la imagen colegio en 410px*/
+    .movercolegio{
+        
+        margin-left: 3rem;
+    }
+    
+}
+@media(max-width: 500px){/*Mueve el texto hacia la izquierda en 500px*/
+    .muevetexto{
+        margin-top: 1rem ;
+        margin-left: -8rem;
+        }
+}
+@media(max-width: 500px){/*Mueve el texto educacion en 500px*/
+    .movereducacion{
+        margin-top: 8rem ;
+        margin-left: -10rem;
+        }
+}
+
+
+@media(max-width: 500px){/*Mueve el texto y educacion en 500px*/
+    .movereducacion{
+       margin-left: -3rem;
+        }
+        .muevetexto{
+            margin-left: -7rem;
+            margin-right: -5rem;
+             }
+}

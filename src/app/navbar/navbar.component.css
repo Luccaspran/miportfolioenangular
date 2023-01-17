@@ -1,0 +1,41 @@
+/*Navbar*/
+/* Aca es para poner colores que yo quiera de fondo en la barra de navegación */
+.navbar.navbar-expand-lg.bg-warning{
+    background: rgb(131,58,180);
+    background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1); background-color: blueviolet !important; 
+}
+i.fa-brands.fa-twitter.fa-2xl:hover{ /* Color para logo twitter cuando se coloca el mousse arriba*/
+    color:aqua  
+  }
+  i.fa-brands.fa-facebook.fa-2xl:hover{ /* Color para logo facebook cuando se coloca el mousse arriba*/
+      color:blue
+  }
+  i.fa-brands.fa-youtube.fa-2xl:hover{ /* Color para logo youtube cuando se coloca el mousse arriba*/
+      color:#fa0c04
+  }
+  i.fa-brands.fa-instagram.fa-2xl:hover{ /* Color para logo instagram cuando se coloca el mousse arriba*/
+      color:blueviolet
+  }
+.Login{ /* Acomoda el ancho del login */
+    height: 76vh; 
+}
+@media(max-width: 348px){/*Hace responsive las redes en 348px para celulares, no sale del margen*/
+    .redesresponsive{
+        margin-left: -1rem;
+        }
+}
+@media(max-width: 329px){/*Hace responsive las redes en 329px para celulares, no sale del margen*/
+    .redesresponsive{
+        margin-left: -1.25rem;
+        
+        }
+}
+@media(max-width: 326px){/*Hace responsive las redes en 326px para celulares, no sale del margen*/
+    .redesresponsive{
+        margin-left: -1.65rem;
+        
+        }
+}

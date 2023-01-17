@@ -1,0 +1,452 @@
+  <!--Empieza Navbar-->
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="../../assets/Img/LOGO ARGENTINA PROGRAMA.png" alt="" width="30%" height="">
+      </a>
+      <!-- Pone Los logos de las redes sociales-->
+      <ul class="list-group list-group-horizontal ">
+
+        <!-- Boton para enviar al login -->
+        <li class="list-group-item">
+          <a routerLink="/login"><i class="fa-solid fa-user fa-2xl" type="button"></i></a>
+        </li>
+      </ul>
+    </div>
+</nav>
+<!--finaliza Navbar-->
+<div class="colorfondo container-fluid">
+  <!--Pone en un cuadro redes,banner,etc,-->
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-1">
+      </div>
+      <div class="col-2">
+        <img src="../../assets/Img/20210225_180632_Film3.jpg" class="rounded-circle img-fluid w-50 perfil agrandarperfil" alt="foto perfil">
+        <h5 class="letracolor"> Luccas Pranteda </h5>
+      </div>
+      <div class="col-8">
+      </div>
+      <div class="col-1">
+      </div>
+    </div>
+  </div>
+  <!--columna de la barra del costado-->
+  <div class="row">
+    <!--Aca empiezan las barras del costado izquierdo, menu de navegacion-->
+    <div class="col-2">
+      <nav class="vertical" id="list-tab" role="tablist">
+        <ul>
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action active" id="list-redes-list" data-bs-toggle="list"
+              href="#list-redes" role="tab" aria-controls="list-redes">
+              <i class="fa-solid fa-network-wired"></i> Redes </a>
+          </li>
+          
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-banner-list" data-bs-toggle="list"
+              href="#list-banner" role="tab" aria-controls="list-banner">
+              <i class="fa-solid fa-images"></i> Banner </a>
+          </li>
+          
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-acercademi-list" data-bs-toggle="list"
+              href="#list-acercademi" role="tab" aria-controls="list-acercademi">
+              <i class="fa-solid fa-eject"></i> A cerca de mi </a>
+          </li>
+          
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-experiencia-list" data-bs-toggle="list"
+              href="#list-experiencia" role="tab" aria-controls="list-experiencia">
+              <i class="fa-solid fa-align-justify"></i> Experiencia </a>
+          </li>
+          
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-educacion-list" data-bs-toggle="list"
+              href="#list-educacion" role="tab" aria-controls="list-educacion">
+              <i class="fa-solid fa-school"></i> Educación </a>
+          </li>
+          
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-hard-list" data-bs-toggle="list"
+              href="#list-hard" role="tab" aria-controls="list-hard">
+              <i class="fa-solid fa-image"></i> Hard & soft skills </a>
+          </li>
+          
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-proyectos-list" data-bs-toggle="list"
+              href="#list-proyectos" role="tab" aria-controls="list-proyectos">
+              <i class="fa-solid fa-diagram-project"></i> Proyectos </a>
+          </li>
+          
+          <li class="vertical">
+            <a class="list-group-item list-group-item-action" id="list-info-list" data-bs-toggle="list"
+              href="#list-info" role="tab" aria-controls="list-info">
+              <i class="fa-solid fa-info"></i> Info </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+    </div>
+    <!-- Empieza redes-->
+    <div class="col-10 mt-4">
+      <div class="tab-content achicar" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="list-redes" role="tabpanel" aria-labelledby="list-redes-list">
+          <div class="modal-content px-5">
+            <div class="mb-3 row">
+              <label for="instagram" class="col-sm-2 col-form-label">Instagram</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="instagram">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="facebook" class="col-sm-2 col-form-label">Facebook</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="facebook">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="twitter" class="col-sm-2 col-form-label">Twitter</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="twitter">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="linkedin" class="col-sm-2 col-form-label">Linkedin</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="linkedin">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Finaliza redes-->
+        <!--Empieza banner-->
+        <div class="tab-pane fade" id="list-banner" role="tabpanel" aria-labelledby="list-banner-list">
+          <div class="modal-content px-5">
+            <div class="mb-3 row">
+              <h2><u>Banner</u></h2>
+              <label for="banner" class="form-label">Imagen 1</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="file" id="bannerUno">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="bannerDos" class="form-label">Imagen 2</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="file" id="bannerDos">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="bannerTres" class="form-label">Imagen 3</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="file" id="bannerTres">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Finaliza banner-->
+        <!--Empieza acerca de mi-->
+        <div class="tab-pane fade" id="list-acercademi" role="tabpanel" aria-labelledby="list-acercademi-list">
+          <div class="modal-content px-5">
+            <div class="mb-3 row">
+              <label for="acercademi" class="col-sm-2 col-form-label">A cerca de mi</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" id="info">
+                  </textarea>
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Finaliza acerca de mi-->
+        <!--Empieza experiencia-->
+        <div class="tab-pane fade" id="list-experiencia" role="tabpanel" aria-labelledby="list-experiencia-list">
+          <div class="modal-content px-5">
+            <div class="mb-3 row">
+              <h2><u>Trabajo Laboral</u></h2>
+              <label for="banner" class="form-label">Imagen 1</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="file" id="bannerUno">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Empieza Educacion-->
+        <div class="tab-pane fade" id="list-educacion" role="tabpanel" aria-labelledby="list-educacion-list">
+          <div class="modal-content px-5">
+            <div class="mb-3 row">
+              <label for="educacionUno" class="form-label">Educación</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="file" id="educacionUno">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+                <label for="educacionDos" class="form-label"></label>
+                <input class="form-control" type="file" id="educacionDos">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Finaliza educacion-->
+        <!--Empieza hard & soft-->
+        <div class="tab-pane fade" id="list-hard" role="tabpanel" aria-labelledby="list-hard-list">
+          <!--HTML-->
+          <div class="modal-content px-5">
+            <div class="row">
+              <div class="col-6 mb-3">
+                <label for="html" class="col-sm-2 col-form-label">HTML</label>
+                <input type="text" class="form-control" id="html">
+              </div>
+              <div class="col-6 mb-3">
+                <label for="procentaje" class="col-sm-2 col-form-label">Porcentaje</label>
+                <input type="text" class="form-control" id="porcentaje">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                <button type="button" class="btn btn-primary">Guardar Cambios</button>
+              </div>
+            </div>
+          </div>
+          <!--CSS-->
+          <div class="modal-content px-5">
+            <div class="row">
+              <div class="col-6 mb-3">
+                <label for="css" class="col-sm-2 col-form-label">CSS</label>
+                <input type="text" class="form-control" id="css">
+              </div>
+              <div class="col-6 mb-3">
+                <label for="procentaje" class="col-sm-2 col-form-label">Porcentaje</label>
+                <input type="text" class="form-control" id="porcentaje">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                <button type="button" class="btn btn-primary">Guardar Cambios</button>
+              </div>
+            </div>
+          </div>
+          <!--JAVASCRIPT-->
+          <div class="modal-content px-5">
+            <div class="row">
+              <div class="col-6 mb-3">
+                <label for="javascript" class="col-sm-2 col-form-label">JAVASCRIPT</label>
+                <input type="text" class="form-control" id="javascript">
+              </div>
+              <div class="col-6 mb-3">
+                <label for="procentaje" class="col-sm-2 col-form-label">Porcentaje</label>
+                <input type="text" class="form-control" id="porcentaje">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                <button type="button" class="btn btn-primary">Guardar Cambios</button>
+              </div>
+            </div>
+          </div>
+          <!--ANGULAR-->
+          <div class="modal-content px-5">
+            <div class="row">
+              <div class="col-6 mb-3">
+                <label for="angular" class="col-sm-2 col-form-label">ANGULAR</label>
+                <input type="text" class="form-control" id="angular">
+              </div>
+              <div class="col-6 mb-3">
+                <label for="procentaje" class="col-sm-2 col-form-label">Porcentaje</label>
+                <input type="text" class="form-control" id="porcentaje">
+              </div>
+              <div class="modal-footer ">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                <button type="button" class="btn btn-primary">Guardar Cambios</button>
+              </div>
+            </div>
+          </div>
+          <!--JAVA-->
+          <div class="modal-content px-5">
+            <div class="row">
+              <div class="col-6 mb-3">
+                <label for="java" class="col-sm-2 col-form-label">JAVA</label>
+                <input type="text" class="form-control" id="java">
+              </div>
+              <div class="col-6 mb-3">
+                <label for="procentaje" class="col-sm-2 col-form-label">Porcentaje</label>
+                <input type="text" class="form-control" id="porcentaje">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                <button type="button" class="btn btn-primary">Guardar Cambios</button>
+              </div>
+            </div>
+          </div>
+          <!--INGLES-->
+          <div class="modal-content px-5">
+            <div class="row ">
+              <div class="col-6 mb-3">
+                <label for="ingles" class="col-sm-2 col-form-label">INGLES</label>
+                <input type="text" class="form-control" id="ingles">
+              </div>
+              <div class="col-6 mb-3">
+                <label for="procentaje" class="col-sm-2 col-form-label">Porcentaje</label>
+                <input type="text" class="form-control" id="porcentaje">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                <button type="button" class="btn btn-primary">Guardar Cambios</button>
+              </div>
+            </div>
+          </div>
+          <!--HABILIDADES BLANDAS-COMPAÑERISMO-->
+          <div class="modal-content px-5">
+            <div class="row">
+              <div class="col-6 mb-3">
+                <label for="habilidadesblandas" class="col-sm-2 col-form-label">HABILIDADES BLANDAS-COMPAÑERISMO</label>
+                <input type="text" class="form-control" id="habilidadesblandas">
+              </div>
+              <div class="col-6 mb-3">
+                <label for="procentaje" class="col-sm-2 col-form-label">Porcentaje</label>
+                <input type="text" class="form-control" id="porcentaje">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                <button type="button" class="btn btn-primary">Guardar Cambios</button>
+              </div>
+            </div>
+          </div>
+          <!--HABILIDADES DURAS-COMUNICACIÓN-->
+          <div class="modal-content px-5">
+            <div class="row">
+              <div class="col-6 mb-3">
+                <label for="habilidadesduras" class="col-sm-2 col-form-label">HABILIDADES DURAS-COMUNICACIÓN</label>
+                <input type="text" class="form-control" id="habilidadesduras">
+              </div>
+              <div class="col-6 mb-3">
+                <label for="procentaje" class="col-sm-2 col-form-label">Porcentaje</label>
+                <input type="text" class="form-control" id="porcentaje">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                <button type="button" class="btn btn-primary">Guardar Cambios</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Finaliza hard & soft-->
+        <!--Empieza proyectos-->
+        <div class="tab-pane fade" id="list-proyectos" role="tabpanel" aria-labelledby="list-proyectos-list">
+          <div class="modal-content px-5">
+            <div class="mb-3 row">
+              <h2><u>Proyectos</u></h2>
+              <label for="banner" class="form-label">Imagen 1</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="file" id="bannerUno">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="bannerDos" class="form-label">Imagen 2</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="file" id="bannerDos">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="bannerTres" class="form-label">Imagen 3</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="file" id="bannerTres">
+                <div class="modal-footer acomodarbotones">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                  <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                </div>
+                <div class="mb-3 row">
+                  <label for="acercademi" class="col-sm-2 col-form-label">Componentes de la computadora</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" id="info">
+                        </textarea>
+                    <div class="modal-footer acomodarbotones">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Actualizar</button>
+                      <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Finaliza Proyectos-->
+        <div class="tab-pane fade" id="list-info" role="tabpanel" aria-labelledby="list-info-list">Texto8</div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer derechos de autor-->
+  <footer class="bg-black text-white text-center fs-6 moverfooter">
+    <div class="footer2">
+      <p class="textfooter">& Copy Copyright Luccas Pranteda-2022</p>
+    </div>
+  </footer>

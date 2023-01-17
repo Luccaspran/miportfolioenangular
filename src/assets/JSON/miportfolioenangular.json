@@ -1,0 +1,168 @@
+{
+
+    "redes": [
+        {
+         "id": 0,
+         "icono":"fa-instagram"
+        },
+        {
+        "id": 1,
+        "icono":"fa-youtube"
+        },
+        {
+        "id": 2,
+        "icono":"fa-facebook"
+        },
+        {
+        "id": 3,
+        "icono":"fa-twitter"
+        }
+    ],
+        
+        "logoarg":"assets/Img/LOGO ARGENTINA PROGRAMA.png",
+    
+        "img1":"assets/Img/paisaje-digital-en-atardecer_3840x2160_xtrafondos.com.jpg",
+        "tituloimg":"Paisaje atardecer",
+        "texto":"Hermoso lugar para descarnsar y despejar la mente.",
+        
+        "img2":"assets/Img/descargar.jpg",
+        "tituloimg2":"Leon en la Luna",
+        "texto2":"Leon rodeado de asteroides y muchos colores",
+
+        "img3":"assets/Img/red-forest-3840x2160-4k-wallpaper-preview.jpg",
+        "tituloimg3":"Bosque Rojo",
+        "texto3":"Arboleda rojiza con un bello atardecer rojizo.",
+
+    
+        "tituloacerca":"ACERCA DE MI",
+        "nombre": "Luccas",
+        "apellido": "Pranteda",
+        "Puesto": "Desarrollador full stack developer jr",
+        "sobremi":"Soy un chico de 20 años apasionado por la programación y todo lo relacionado con la computación. Busco ser un desarrollador full stack developer jr. Considero que soy una persona que busca lograr sus metas, aprendiendo cosas nuevas en el día a día. Tambien estoy estudiando en la Uba la carrera Analista de sistemas(realizando el CBC).",
+    
+        "tituloexperiencia":"Experiencia",
+        "trabajo":"Kiosco de golosinas",
+        "descripcion":"Trabajo en un", 
+        "descripcion2":"kiosco de golosinas desde el 2020",
+        "imgkiosco":"assets/Img/kiosco.jpg",
+
+        "tituloeduca":"EDUCACIÓN",
+        "textoeduc":"Termine el colegio con secundario completo Titulo bachiller comercial llamado Instituto Sagrado Corazón de Jesús. Tambien realice un curso de programación de videojuegos con Unity 3D llamado Aprendiendo programando Virtual planteado por el gobierno de la ciudad de Buenos Aires. Luego finalice el curso la primera etapa #Sé programar de Argentina programa.",
+        "imgcolegio":"assets/Img/Colegio.jpg",
+        "imgseprogramar":"assets/Img/Certificado se programar primera etapa.jpg",
+        "imgunity":"assets/Img/Certificado Unity 3D.jpg",
+            
+        
+    
+        "titulohard":"HARD & SOFT SKILLS",
+        "skills":[
+            {
+                "id":0,
+                "nombre":"HTML",
+                "porcentaje": 80,
+                "color": "progress-bar"
+            },
+            {
+                "id":1,
+                "nombre":"CSS",
+                "porcentaje":70,
+                "color":"progress-bar" 
+            },
+            {
+                "id":2,
+                "nombre":"JAVASCRIPT",
+                "porcentaje":40,
+                "color":"progress-bar"    
+            },
+            {
+                "id":3,
+                "nombre":"ANGULAR",
+                "porcentaje":2,
+                "color":"progress-bar"    
+            },
+            {
+                "id":4,
+                "nombre":"JAVA",
+                "porcentaje":25,
+                "color":"progress-bar"  
+            },
+            {
+                "id":5,
+                "nombre":"INGLES",
+                "porcentaje":10,
+                "color":"progress-bar"    
+            },
+            {
+                "id":6,
+                "nombre": "HABILIDADES BLANDAS-COMPAÑERISMO",
+                "porcentaje":50,
+                "color":"progress-bar"   
+            },
+            {
+                "id":7,
+                "nombre":"HABILIDADES DURAS-COMUNICACIÓN",
+                "porcentaje":50,
+                "color":"progress-bar"    
+            }
+        ],
+
+        "tituloproy":"Proyectos",
+        "textoproyec":"Tengo una gran pasión por las computadoras especialmente por los videojuegos",
+        "proyectos":[
+            {
+                "id":0,
+                "img":"assets/Img/compu gamer.jpg"
+            },
+            {
+                "id":1,
+                "img":"assets/Img/compugamer 2.jpg"
+            },
+            {
+                "id":2,
+                "img":"assets/Img/compugamer 3.jpg"
+            },
+            {
+                "id":3,
+                "img":"assets/Img/compugamer 4.jpg"
+            }
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
