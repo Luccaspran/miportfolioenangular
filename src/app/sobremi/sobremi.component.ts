@@ -12,7 +12,7 @@ nombre: string= '';
 apellido: string='';
 tituloacerca: string='';
 sobremi: string='';
-
+imgmia: string='';
 // Inyectar el servicio para tener acceso en la clase los Métodos
  constructor (private datosportfolioService: DatosportfolioService) { }
 
@@ -25,6 +25,7 @@ sobremi: string='';
     this.apellido=portfolio.apellido;
     this.tituloacerca=portfolio.tituloacerca;
     this.sobremi=portfolio.sobremi;
+    this.imgmia=portfolio.imgmia
   });
    
  }
